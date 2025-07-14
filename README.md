@@ -1,28 +1,31 @@
-# 🤖 Gemini Terminal Chatbot
+# 🤖 Gemini Chatbot (Python Terminal Version)
 
-A lightweight terminal-based chatbot powered by **Google Gemini 2.0 Flash** and Python. This bot remembers previous messages in the session and gives fast, intelligent responses.
-
-![demo](assets/demo.gif) <!-- Optional: Add a demo gif or screenshot -->
+A simple terminal-based chatbot powered by Google's Gemini API (Generative AI), written in Python.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 💬 Chat with an AI assistant from your terminal
-- 🧠 Keeps conversation history
-- ⚡ Uses the fast and efficient Gemini 2.0 Flash model
-- 🔒 Environment-secured API key
-- 🛠️ Easy to set up and run
+- Chat with Google's Gemini 2.0 model
+- Maintains conversation history using `start_chat`
+- Easy to run in any terminal
+- Environment variable handling with `.env` for secure API storage
 
 ---
 
-## 📦 Requirements
+## 📷 Demo
+ You: Hello!
+ Bot: Hello! I'm your assistant. How can I help you today?
 
-- Python 3.7+
-- `google-generativeai`
-- `python-dotenv`
+👨‍💻 Author
+Sukhendu Chakraborty
 
-Install with:
-```bash
-pip install -r requirements.txt
-# Gemini-Terminal-Chatbot
+📄 License
+This project is licensed under the MIT License.
+
+🔐 Setup Your .env File
+Create a .env file in the project root.
+
+🔐 Add your Gemini API key:
+.env(example)
+GEMINI_API_KEY=your_actual_gemini_api_key
