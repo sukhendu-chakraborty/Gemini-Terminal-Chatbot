@@ -14,7 +14,7 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 # Start a chat session (this keeps history)
 chat = model.start_chat(history=[])
 
-print("Bot: Hello! I'm your assistant. Type 'exit' to end the conversation.\n")
+print("Bot: Hello! I'm your assistant. How can I help you today ?.")
 
 # Start the conversation loop
 while True:
@@ -28,4 +28,5 @@ while True:
     response = chat.send_message(user_input)
 
     print("Bot:", response.text)
+
 
